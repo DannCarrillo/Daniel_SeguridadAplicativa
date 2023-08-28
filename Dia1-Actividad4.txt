@@ -1,0 +1,12 @@
+#Programa que muestre en pantalla los numeros del 1 a 100, sustituyendo los multiplos de 3 por la palabra fizz,
+#los multiplos de 5 por buzz y los multiplos de ambos, es decir, los multiplos de 3 y 5, por la palabra fizzouzz
+
+for num in range(1,101):
+	if numero % 3 == 0 and numero % 5 == 0:
+	print("fizziouzz")
+	elif numero % 3 == 0;
+	print("fizz")
+	elif numero % 5 == 0;
+	print("buzz")
+	else:
+	print(numero)
