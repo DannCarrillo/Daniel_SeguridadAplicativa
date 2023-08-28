@@ -1,0 +1,58 @@
+1.¿Qué es una red?
+Es un conjunto de elementos conectados que se comunican y comparten recursos e información. 
+
+2.-¿Qué es el modelo TCP/IP?
+Son protocolos de red que establecen las bases para la comunicación en redes de computadoras.
+
+3.-¿Qué es una IP?
+Internet Protocol, es el número unico que se le asigna a acada equipo conetado a una red.
+
+4.-¿Qué es el protocolo TCP?
+Transmission Control Protocol, se encarga de dar una comunicación confiable.
+
+5.-Dentro del protocolo TCP, ¿qué es el protocolo HTTP?
+Es un protocolo de comunicación que se utiliza para la transferencia de datos entre un cliente y un servidor web.
+
+6.- Puerto del protocolo HTTP
+80
+
+7.- Puerto del protocolo HTTPS
+443
+
+8.- Diferencia entre HTTP y HTTPS
+Que la HTTP pasa el texto en plano y HTTPS no lo pasa asi, sino encriptado.
+
+9.- ¿Qué significa el modelo cleinte-servidor?
+Es la relación/interección entre dos tipos de roles en una red.
+
+10.-¿Qué es una petición (request)?
+Es la acción que ejerce el cliente, que pide información, recursos o algun servicio a un servidor. 
+
+11.- ¿Qué es una respuesta?
+Es la acción que ejerce el servidor ante una petición.
+
+12.- Secciones de una petición. 
+Encabezados
+cuerpo
+GET
+POST
+
+13.-¿Secciones de una respuesta?
+Encabezados 
+cuerpo
+
+14.- El código de respuesta 404 y 500 a que se refiere?
+404 que no fue encontrado
+500 internal server error 
+
+15.-Lenguajes de programación del lado de servidor (Back end)
+PHP
+
+16.-Lenguajes de programación del lado de servidor (front end)
+HTML
+CSS
+JavaScript
+
+17.-¿Qué es burpSuite?
+Es una herramienta de seguridad que es muy amplia y se usa para identificar y mitigar vulneravilidades. 
+
