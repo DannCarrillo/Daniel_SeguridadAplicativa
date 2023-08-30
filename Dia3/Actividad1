@@ -1,0 +1,10 @@
+#Primera actividad
+#Generar un código para mostrar una cadena al revés
+
+string = "Ana"
+string = string.lower()
+
+if ( string == string[::-1]):
+    print("Es palindromo")
+else:
+    print("No es palindromo")
