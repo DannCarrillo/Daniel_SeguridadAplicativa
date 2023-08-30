@@ -13,7 +13,7 @@ def promedio(arreglo):
 def reprobaron(d):
     c=0
     for i in d:
-        if 1 <= 5:
+        if i <= 5:
             c += 1
     return c
     
