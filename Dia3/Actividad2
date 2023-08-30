@@ -1,0 +1,36 @@
+Generar una calculadora por funciones y que reciba el parametro por linea de comandos.
+
+def suma(a, b): return a+b
+def resta(a, b): return a-b
+def mul(a,b): return a * b
+def div(a,b): 
+    if b !=0:
+        return a/b
+    else:
+        return "No se puede dividir"
+    
+while True:
+    print(" ")
+    print("Selecciones una opcion")
+    print("1. Suma")
+    print("2. Resta")
+    print("3. Multiplicacion")
+    print("4. Divicion")
+    
+    opcion = int(input("Selecciona una operacion 1/2/3/4): "))
+    
+    num1 = float(input("Ingresa el primer numero: "))
+    num2 = float(input("Ingresa el segundo numero: "))
+    
+    if opcion == 1:
+        print("El resultado de la suma es:  ", suma(num1,num2))
+    elif opcion ==2:
+        print("El resultado de la resta es: ", resta(num1,num2))
+    elif opcion == 3:
+        print("El resultado de la multiplicacion es: ", mul(num1, num2))
+    elif opcion == 4:
+        print("El resultado de la divicion es: ", div(num1, num2))
+    else:
+        print("Seleccione algo valido")
+    
+    
