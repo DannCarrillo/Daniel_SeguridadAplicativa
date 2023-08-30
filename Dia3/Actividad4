@@ -1,0 +1,58 @@
+#Del sig diccionario realizar las funciones que obtenga lo sig.
+#Obtener el promedio
+#Los aspirantes con mayor promedio y con menor promedio
+
+aspirantes = {
+    "Juan":8,
+    "Gisel":9,
+    "Damian":5,
+    "Ricardo":6,
+    "Yoatzin":6,
+    "Erick":7,
+    "Mario":8,
+    "Edgar":9,
+    "Fernanda":5,
+    "Daniel":6,
+    "Jesus":7,
+    "Damian":8,
+    "Yemahina":6,
+    "Eduardo":9,
+    "Bryan":9,
+    "Mariano":10,
+    "Alberto":8
+}
+
+def promedio(diccionario):
+    valores=diccionario.values()
+    suma_total=sum(valores)
+    promedio_c=suma_total/len(valores)
+    return promedio_c
+
+def mayor(calificaciones):
+    mayor=0
+    for alumno in calificaciones:
+        if calificaciones[alumno] > mayor:
+            mayor = calificaciones[alumno]
+        
+    for alumno in calificaciones:
+        if calificaciones[alumno] == mayor:
+            print(alumno)
+    
+def menor(calificaciones):
+    menor=11
+    for alumno in calificaciones:
+            if calificaciones[alumno] < menor:
+                menor = calificaciones[alumno]
+                
+    for alumno in calificaciones:
+            if calificaciones[alumno] == menor:
+                print(alumno)
+
+
+print("El promedio del grupo es : ", promedio(aspirantes))
+
+print("El mayor es : ") 
+mayor(aspirantes)
+
+print("El menor es :")
+menor(aspirantes)
